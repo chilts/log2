@@ -10,10 +10,7 @@
     "devDependencies" : {
         "tap" : "0.4.x"
     },
-    "dependencies" : {
-        "underscore" : "1.4.x",
-        "xml2js" : "0.2.x"
-    },
+    "dependencies" : {},
     "scripts" : {
         "test" : "tap test/*.js"
     },
