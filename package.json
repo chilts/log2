@@ -36,6 +36,6 @@
         "url" : "http://github.com/chilts/log2/raw/master/LICENSE"
     }],
     "keywords" : [
-        "log", "logger", "loggr", "logga"
+        "log", "logger", "loggr", "logga", "logging"
     ]
 }
