@@ -1,7 +1,7 @@
 {
     "name" : "log2",
     "description" : "Customisable logger where most things are optional.",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
 
     "main" : "log2.js",
     "engines" : {
