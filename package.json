@@ -1,0 +1,44 @@
+{
+    "name" : "log2",
+    "description" : "Customisable logger where most things are optional.",
+    "version" : "0.1.0",
+
+    "main" : "log2.js",
+    "engines" : {
+        "node" : ">= 0.6.0"
+    },
+    "devDependencies" : {
+        "tap" : "0.4.x"
+    },
+    "dependencies" : {
+        "underscore" : "1.4.x",
+        "xml2js" : "0.2.x"
+    },
+    "scripts" : {
+        "test" : "tap test/*.js"
+    },
+
+    "homepage" : "http://chilts.org",
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chilts/log2.git"
+    },
+    "bugs" : {
+        "url" : "http://github.com/chilts/log2/issues",
+        "mail" : "andychilton@gmail.com"
+    },
+
+    "author" : {
+        "name" : "Andrew Chilton",
+        "email" : "andychilton@gmail.com",
+        "url" : "http://chilts.org/"
+    },
+    "contributors" : [],
+    "licenses" : [{
+        "type" : "MIT",
+        "url" : "http://github.com/chilts/log2/raw/master/LICENSE"
+    }],
+    "keywords" : [
+        "log", "logger", "loggr", "logga"
+    ]
+}
