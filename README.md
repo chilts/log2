@@ -4,7 +4,7 @@ Log2 - Customisable logger where most things are optional.
 
 Unfortunately loggers are very personal and people like what they like. I like this one. You might too.
 
-## Example ##
+## Log Creation ##
 
 ```
 var log2 = require('log2');
@@ -16,7 +16,7 @@ var logWithProcessInfo = log2({ title : true, pid : true, hostname : true });
 var logToStream = log2({ stream : fs.createWriteStream('filename.log') });
 ```
 
-Once you have set up your log object, you can call it with your messages:
+## Log Functions ##
 
 ```
 # log() is the same as log.info()
@@ -30,7 +30,7 @@ log.error('Interestingly, somewhere went wrong');
 log.fatal('Something went badly wrong');
 ```
 
-Outputs:
+## Example Outputs ##
 
 ```
 # simple line, just log.info()
